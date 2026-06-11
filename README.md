@@ -74,7 +74,7 @@ Investigate and answer the following:
 
 🔍 Questions:
 What is the full email address of the sender?
-![Email Header Analysis](Screenshots/email-header-analysis.png)
+![Email Header Analysis](Screenshot 2026-06-11 073624.png)
 
 
 
