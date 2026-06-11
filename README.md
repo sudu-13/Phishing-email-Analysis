@@ -64,11 +64,11 @@ Analyze suspicious files in a sandbox environment.
 # 6. Analyze Email Headers
 Important fields:
 # From
-Shows sender address.
+Shows the sender's address.
 # Reply-To
-May redirect responses to attacker.
+May redirect responses to the attacker.
 # Return-Path
-Shows actual sending address.
+Shows the actual sending address.
 # Received
 Shows email route.
 # Message-ID
@@ -86,44 +86,26 @@ SPF: PASS
 DKIM: PASS
 DMARC: PASS
 
-# Common Phishing Indicators
-Indicator                         	Description
-Urgency                            	Immediate action required
-Spoofed Domain	                    Fake sender domain
-Suspicious Links                  	Redirects to malicious sites
-Generic Greeting	                  "Dear User"
-Unexpected Attachment              	Unknown file
-Credential Request                	Asking for passwords
-Poor Grammar	                      Errors in text
 
-# Sample Analysis Report
-# Email Details
-Sender: attacker@example.com
-Subject: Verify Your Account
-Attachment: invoice.zip
+# 🎯 Lab Objective
+The objective of this lab is to analyze a real-world phishing email sample using manual investigation techniques. Students will learn to review email headers, validate the sender's identity, check domain/IP reputation, and extract indicators of compromise (IOCs).
 
-# Findings
-Sender domain not related to claimed company.
-URL redirects to credential harvesting site.
-Attachment contains malware.
-SPF failed.
-DKIM failed.
+# 🛠️ Lab Setup
+📨 Download Email Sample (.eml)
+💻 Tools Recommended:
+MX Toolbox Email Header Analyzer
+EML Analyzer
+IP reputation check (e.g., VirusTotal, AbuseIPDB, Cisco Talos)
+Whois lookup (e.g., whois.domaintools.com)
+URL and Domain analysis (e.g., urlscan.io, VirusTotal)
+# 🧪 Lab Task: Analyze the Suspicious Email
+# 📥 Scenario:
+You received an email from BANCO DO BRADESCO LIVELO claiming that your card has 92,990 points expiring today, sent from banco.bradesco@atendimento.com.br.
 
-# Verdict
-# Malicious Phishing Email
-Risk Level
-High
+Investigate and answer the following:
 
-# Recommended Actions
-Block sender.
-Quarantine email.
-Notify users.
-Reset affected passwords.
-Monitor for suspicious activity.
+🔍 Questions:
+What is the full email address of the sender?
 
-# Tools Used by Security Analysts
-Wireshark
-Microsoft Outlook
-VirusTotal
-MxToolbox
-URLScan.io
+
+
