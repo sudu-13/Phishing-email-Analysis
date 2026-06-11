@@ -76,6 +76,13 @@ Investigate and answer the following:
 What is the full email address of the sender?
 ![Email Header Analysis](https://github.com/sudu-13/Phishing-email-Analysis/blob/2cc44277acdce8ec14b6d3164f03dbd66a72e74a/Screenshot%202026-06-11%20073624.png)
 
+The screenshot only shows the EML Analyzer upload page with the file “BRADESCO LIVELO.eml” selected. It does not display any email headers, sender information, or analysis results.
+So, the full email address of the sender cannot be determined from this screenshot alone.
+If you want me to identify the sender, please upload either:
+1. The EML file itself (BRADESCO LIVELO.eml), or
+2. A screenshot of the analysis results showing the email headers (e.g., From, Return-Path, Reply-To, etc.).
+
+Once you provide that, I can extract the sender's full email address.
 
 
 
