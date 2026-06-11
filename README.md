@@ -91,6 +91,10 @@ The screenshot shows the From field as:
 Therefore, the domain used to send the email (from the From header) is:
 # atendimento.com.br
 
+# 3. What is the sender’s IP address from the header?
+![Email Header Analysis](https://github.com/sudu-13/Phishing-email-Analysis/blob/bbdf0ae6b077e9cf8f820e3c5bb48d84e984adc6/Screenshot%202026-06-11%20074951.png)
+From the email header "Hops" table, the earliest external source (Hop 2) shows:
+From: 137.184.34.4
 
 
 
