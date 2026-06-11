@@ -96,9 +96,23 @@ Therefore, the domain used to send the email (from the From header) is:
 From the email header "Hops" table, the earliest external source (Hop 2) shows:
 # 137.184.34.4
 
-# 4. Is the sender IP blacklisted? (Check using AbuseIPDB or VirusTotal – Answer Yes/No)
+# 4. Is the sender IP blacklisted? (Check using VirusTotal – Answer Yes/No)
+![Email Header Analysis](https://github.com/sudu-13/Phishing-email-Analysis/blob/6fbc7403cc6cf98ba9bfb2250db46dca0ceff03d/Screenshot%202026-06-11%20075140.png)
+Yes, according to the VirusTotal screenshot:
+1/91 security vendors flagged this IP address as malicious
+Vendor Criminal IP marked it as Malicious
+Other vendors mostly marked it as Clean or Suspicious.
 
+# 5. What is the result of SPF authentication? (Pass / Fail / Neutral)
+![Email Header Analysis](https://github.com/sudu-13/Phishing-email-Analysis/blob/6fbc7403cc6cf98ba9bfb2250db46dca0ceff03d/Screenshot%202026-06-11%20075624.png)
+From the authentication-results header:
+spf=temperror (sender IP is 137.184.34.4)
+The SPF result shown is temperror, which means a temporary error occurred during SPF validation (it is not a pass).
 
+# 6. What is one suspicious URL or link found in the email body?
+![Email Header Analysis](https://github.com/sudu-13/Phishing-email-Analysis/blob/6fbc7403cc6cf98ba9bfb2250db46dca0ceff03d/Screenshot%202026-06-11%20075902.png)
 
+Based on the urlscan.io analysis screen, the suspicious URL found in the email body is:
+https://blog1seguimentmydomaine2bra.me/
 
 
