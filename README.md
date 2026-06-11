@@ -52,39 +52,7 @@ VirusTotal
 URLScan
 PhishTank
 
-# 5. Check Attachments
-Common malicious attachments:
-.exe
-.zip
-.rar
-.docm
-.xlsm
-Analyze suspicious files in a sandbox environment.
 
-# 6. Analyze Email Headers
-Important fields:
-# From
-Shows the sender's address.
-# Reply-To
-May redirect responses to the attacker.
-# Return-Path
-Shows the actual sending address.
-# Received
-Shows email route.
-# Message-ID
-Can reveal spoofing attempts.
-
-# 7. Authentication Checks
-# SPF (Sender Policy Framework)
-Verifies sending server.
-# DKIM (DomainKeys Identified Mail)
-Verifies message integrity.
-# DMARC
-Protects against spoofing.
-# Example:
-SPF: PASS
-DKIM: PASS
-DMARC: PASS
 
 
 # 🎯 Lab Objective
