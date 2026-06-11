@@ -74,6 +74,8 @@ Investigate and answer the following:
 
 🔍 Questions:
 What is the full email address of the sender?
+https://github.com/sudu-13/Phishing-email-Analysis/blob/703227feb67553aa4edfbe551b0a88d4899aa51b/Screenshot%202026-06-11%20073624.png
+
 
 
 
