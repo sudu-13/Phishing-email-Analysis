@@ -74,7 +74,7 @@ Investigate and answer the following:
 
 🔍 Questions:
 What is the full email address of the sender?
-![Email Header Analysis](Screenshot 2026-06-11 073624.png)
+![Email Header Analysis](https://github.com/sudu-13/Phishing-email-Analysis/blob/2cc44277acdce8ec14b6d3164f03dbd66a72e74a/Screenshot%202026-06-11%20073624.png)
 
 
 
